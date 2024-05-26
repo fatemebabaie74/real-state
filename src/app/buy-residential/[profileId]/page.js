@@ -1,5 +1,5 @@
 import Profile from "@/models/Profile";
-import DetailsPage from "@/template/DetailsPage";
+import DetailsPage from "@/app/components/template/DetailsPage";
 import connectDB from "@/utils/connectDB";
 
 async function ProfileDetails({ params: { profileId } }) {

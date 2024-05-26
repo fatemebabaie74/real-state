@@ -2,13 +2,13 @@ import { SiHomebridge } from "react-icons/si";
 import { AiOutlinePhone } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BiCalendarCheck } from "react-icons/bi";
-import { e2p, sp } from "@/utils/replaceNumber";
-import ItemList from "@/module/ItemList";
-import Title from "@/module/Title";
-import ShareButton from "@/module/ShareButton";
+import { e2p , sp } from "@/utils/replaceNumber";
+import ItemList from "../module/ItemList";
+import Title from "../module/Title";
+import ShareButton from "../module/ShareButton";
 import { icons } from "@/app/constants/Icons";
-import { categories } from "@/constants/strings";
-import styles from "@/template/DetailsPage.module.css";
+import { categories } from "@/app/constants/String";
+import styles from "@/templates/DetailsPage.module.css";
 
 function DetailsPage({
   data: {
@@ -65,4 +65,4 @@ function DetailsPage({
   );
 }
 
-export default DetailsPage
+export default DetailsPage;
